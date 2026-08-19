@@ -1,5 +1,9 @@
 # IM-Reply-Qwen
 
+## 演示视频
+
+[观看或下载 73 秒公开演示](https://github.com/Say1kU/im-reply-qwen/releases/tag/v0.1.0-demo)，内容包括真实的 Base / LoRA 本地推理对比、固定评测结果和项目结构说明。视频无音轨，Release 同时附有中文分镜讲解词。
+
 面向中文即时通信场景的可控回复模型：使用 Qwen3 + LoRA 学习简洁、自然、事实一致的
 回复风格，并通过固定测试集比较原始模型与微调模型。
 
