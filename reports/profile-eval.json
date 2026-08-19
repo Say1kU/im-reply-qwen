@@ -1,0 +1,1340 @@
+{
+  "data": "data\\profile_eval.jsonl",
+  "results": {
+    "base": {
+      "summary": {
+        "cases": 16,
+        "all_rules_pass_rate": 0.6875,
+        "required_pass_rate": 0.75,
+        "fact_consistency_rate": 1.0,
+        "mean_latency_seconds": 0.801
+      },
+      "rows": [
+        {
+          "id": "profile-001",
+          "output": "已完成使用 Python 开发 AI 求职助手项目。",
+          "scores": {
+            "char_count": 26,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 0.982
+        },
+        {
+          "id": "profile-002",
+          "output": "我目前没有MNN-Chat项目经验，但使用Python和Streamlit开发过AI求职助手。",
+          "scores": {
+            "char_count": 47,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.007
+        },
+        {
+          "id": "profile-003",
+          "output": "我正在学习 Qwen3 LoRA 微调。",
+          "scores": {
+            "char_count": 20,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 0.623
+        },
+        {
+          "id": "profile-004",
+          "output": "已支持PDF、DOCX格式简历解析。",
+          "scores": {
+            "char_count": 18,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 0.507
+        },
+        {
+          "id": "profile-005",
+          "output": "确认调用过大模型API。",
+          "scores": {
+            "char_count": 12,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 0.37
+        },
+        {
+          "id": "profile-006",
+          "output": "我有使用 Python 和 Streamlit 开发的 AI 求职助手，熟悉 PDF/DOCX 简历解析，能调用大模型 API，并设计 Prompt。正在学习 Qwen3 LoRA 微调，目前没有 MNN-Chat 项目经验。",
+          "scores": {
+            "char_count": 113,
+            "length_pass": false,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": false
+          },
+          "latency_seconds": 2.549
+        },
+        {
+          "id": "profile-007",
+          "output": "我尚无 MNN 项目经验。",
+          "scores": {
+            "char_count": 13,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": false,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": false
+          },
+          "latency_seconds": 0.455
+        },
+        {
+          "id": "profile-008",
+          "output": "项目链接已准备，需提前确认。",
+          "scores": {
+            "char_count": 14,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": false,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": false
+          },
+          "latency_seconds": 0.465
+        },
+        {
+          "id": "profile-009",
+          "output": "使用 Python 开发",
+          "scores": {
+            "char_count": 12,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 0.258
+        },
+        {
+          "id": "profile-010",
+          "output": "我使用 Python 和 Streamlit 开发了 AI 求职助手，实现了简历解析和大模型 API 调用。",
+          "scores": {
+            "char_count": 54,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.302
+        },
+        {
+          "id": "profile-011",
+          "output": "我处理 DOCX 简历。",
+          "scores": {
+            "char_count": 12,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 0.545
+        },
+        {
+          "id": "profile-012",
+          "output": "目前进展如下：已使用 Python 和 Streamlit 开发 AI 求职助手，完成了简历解析和大模型调用，正在学习 Qwen3 LoRA 微调。",
+          "scores": {
+            "char_count": 74,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.706
+        },
+        {
+          "id": "profile-013",
+          "output": "我已实现结果状态管理，感谢你的提问。",
+          "scores": {
+            "char_count": 18,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 0.55
+        },
+        {
+          "id": "profile-014",
+          "output": "我更偏应用算法和AI技术。",
+          "scores": {
+            "char_count": 13,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": false,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": false
+          },
+          "latency_seconds": 0.448
+        },
+        {
+          "id": "profile-015",
+          "output": "我熟悉Python和AI求职助手，能高效解析简历并调用大模型API。",
+          "scores": {
+            "char_count": 34,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 0.841
+        },
+        {
+          "id": "profile-016",
+          "output": "部署完成。",
+          "scores": {
+            "char_count": 5,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": false,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": false
+          },
+          "latency_seconds": 0.205
+        }
+      ]
+    },
+    "smoke3": {
+      "summary": {
+        "cases": 16,
+        "all_rules_pass_rate": 0.875,
+        "required_pass_rate": 0.875,
+        "fact_consistency_rate": 1.0,
+        "mean_latency_seconds": 1.689
+      },
+      "rows": [
+        {
+          "id": "profile-001",
+          "output": "我使用 Python 开发过 AI 求职助手，实现了 PDF、DOCX 简历解析。",
+          "scores": {
+            "char_count": 41,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.748
+        },
+        {
+          "id": "profile-002",
+          "output": "我目前没有 MNN-Chat 项目经验，但使用 Python、Streamlit 开发过 AI 求职助手，熟悉大模型 API 和 Prompt 设计。需要进一步补充信息吗？",
+          "scores": {
+            "char_count": 86,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 2.957
+        },
+        {
+          "id": "profile-003",
+          "output": "我正在学习 Qwen3 LoRA 微调，会尽快掌握。",
+          "scores": {
+            "char_count": 26,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.176
+        },
+        {
+          "id": "profile-004",
+          "output": "已支持PDF、DOCX格式简历解析，可调用大模型API。",
+          "scores": {
+            "char_count": 28,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.207
+        },
+        {
+          "id": "profile-005",
+          "output": "确认调用过大模型API。",
+          "scores": {
+            "char_count": 12,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 0.573
+        },
+        {
+          "id": "profile-006",
+          "output": "我正在学习 Qwen3 LoRA 微调，会继续优化我的 Prompt 工作。",
+          "scores": {
+            "char_count": 38,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.493
+        },
+        {
+          "id": "profile-007",
+          "output": "我目前没有 MNN 项目经验，但使用 Python、Streamlit 开发过 AI 求职助手，能解析简历并调用大模型 API。",
+          "scores": {
+            "char_count": 64,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 2.557
+        },
+        {
+          "id": "profile-008",
+          "output": "项目链接已准备，可随时提供。",
+          "scores": {
+            "char_count": 14,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": false,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": false
+          },
+          "latency_seconds": 0.705
+        },
+        {
+          "id": "profile-009",
+          "output": "我主要使用 Python 开发了 AI 求职助手，熟悉 Streamlit 和大模型 API。",
+          "scores": {
+            "char_count": 47,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.622
+        },
+        {
+          "id": "profile-010",
+          "output": "我使用 Python 和 Streamlit 开发了 AI 求职助手，实现了简历解析和大模型 API 调用，正在学习 Qwen3 LoRA 微调。",
+          "scores": {
+            "char_count": 73,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 2.918
+        },
+        {
+          "id": "profile-011",
+          "output": "我处理 DOCX 简历，能解析并生成结果。",
+          "scores": {
+            "char_count": 21,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.146
+        },
+        {
+          "id": "profile-012",
+          "output": "我正在学习 Qwen3 LoRA 微调，目前已完成 Python、Streamlit 开发的 AI 求职助手项目，实现了简历解析和大模型 API 调用。",
+          "scores": {
+            "char_count": 76,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 2.959
+        },
+        {
+          "id": "profile-013",
+          "output": "我已实现结果状态管理，正在学习 Qwen3 LoRA。",
+          "scores": {
+            "char_count": 27,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.128
+        },
+        {
+          "id": "profile-014",
+          "output": "我更偏应用算法和AI，正在学习Qwen3 LoRA微调。",
+          "scores": {
+            "char_count": 28,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.356
+        },
+        {
+          "id": "profile-015",
+          "output": "我使用 Python 和 Streamlit 开发过 AI 求职助手，能准确解析简历并调用大模型 API，非常匹配岗位需求。",
+          "scores": {
+            "char_count": 62,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 2.349
+        },
+        {
+          "id": "profile-016",
+          "output": "部署完成，感谢你的提问！需要我帮你处理其他问题吗？",
+          "scores": {
+            "char_count": 25,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": false,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": false
+          },
+          "latency_seconds": 1.125
+        }
+      ]
+    },
+    "profile12": {
+      "summary": {
+        "cases": 16,
+        "all_rules_pass_rate": 0.9375,
+        "required_pass_rate": 0.9375,
+        "fact_consistency_rate": 1.0,
+        "mean_latency_seconds": 1.355
+      },
+      "rows": [
+        {
+          "id": "profile-001",
+          "output": "我使用 Python、Streamlit 开发过 AI 求职助手。",
+          "scores": {
+            "char_count": 33,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.189
+        },
+        {
+          "id": "profile-002",
+          "output": "我目前没有 MNN-Chat 项目经验，正在学习相关技术。",
+          "scores": {
+            "char_count": 29,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.211
+        },
+        {
+          "id": "profile-003",
+          "output": "我正在学习 Qwen3 LoRA 微调，没有 MNN-Chat 项目经验。",
+          "scores": {
+            "char_count": 37,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.605
+        },
+        {
+          "id": "profile-004",
+          "output": "我支持 PDF、DOCX、Word 等格式。",
+          "scores": {
+            "char_count": 22,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.019
+        },
+        {
+          "id": "profile-005",
+          "output": "我调用了大模型 API，正在学习 Qwen3 LoRA 微调。",
+          "scores": {
+            "char_count": 31,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.339
+        },
+        {
+          "id": "profile-006",
+          "output": "我做过 Prompt 设计和结果状态管理。",
+          "scores": {
+            "char_count": 21,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 0.869
+        },
+        {
+          "id": "profile-007",
+          "output": "我目前没有 MNN 项目经验，正在学习相关技术。",
+          "scores": {
+            "char_count": 24,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.233
+        },
+        {
+          "id": "profile-008",
+          "output": "我目前没有公开项目链接，我正在学习和开发相关项目。",
+          "scores": {
+            "char_count": 25,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.204
+        },
+        {
+          "id": "profile-009",
+          "output": "我使用 Python 和 Streamlit 开发过 AI 求职助手。",
+          "scores": {
+            "char_count": 35,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.298
+        },
+        {
+          "id": "profile-010",
+          "output": "我使用 Python、Streamlit 和大模型 API 实现了 AI 求职助手。",
+          "scores": {
+            "char_count": 42,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.497
+        },
+        {
+          "id": "profile-011",
+          "output": "是的，我实现了 PDF、DOCX 简历解析功能。",
+          "scores": {
+            "char_count": 24,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.229
+        },
+        {
+          "id": "profile-012",
+          "output": "目前我正在学习 Qwen3 LoRA 微调，并正在尝试 MNN-Chat 项目。",
+          "scores": {
+            "char_count": 40,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.583
+        },
+        {
+          "id": "profile-013",
+          "output": "我做过结果状态管理，支持过 API 状态更新和数据同步。",
+          "scores": {
+            "char_count": 28,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.188
+        },
+        {
+          "id": "profile-014",
+          "output": "我目前更偏应用 AI 求职助手，正在学习 Qwen3 LoRA 微调。",
+          "scores": {
+            "char_count": 35,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.859
+        },
+        {
+          "id": "profile-015",
+          "output": "我使用过 Streamlit 开发过 AI 求职助手，实现了 PDF、DOCX 简历解析，调用过大模型 API。",
+          "scores": {
+            "char_count": 56,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 2.726
+        },
+        {
+          "id": "profile-016",
+          "output": "我正在部署，已经完成。",
+          "scores": {
+            "char_count": 11,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": false,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": false
+          },
+          "latency_seconds": 0.626
+        }
+      ]
+    },
+    "profile24": {
+      "summary": {
+        "cases": 16,
+        "all_rules_pass_rate": 0.875,
+        "required_pass_rate": 0.875,
+        "fact_consistency_rate": 1.0,
+        "mean_latency_seconds": 1.3
+      },
+      "rows": [
+        {
+          "id": "profile-001",
+          "output": "我使用 Python、Streamlit 开发过 AI 求职助手。",
+          "scores": {
+            "char_count": 33,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.186
+        },
+        {
+          "id": "profile-002",
+          "output": "我目前没有 MNN-Chat 项目经验，正在学习相关技术。",
+          "scores": {
+            "char_count": 29,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.234
+        },
+        {
+          "id": "profile-003",
+          "output": "可以，我正在学习 Qwen3 LoRA 微调。",
+          "scores": {
+            "char_count": 23,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.068
+        },
+        {
+          "id": "profile-004",
+          "output": "我支持 PDF、DOCX 简历解析。",
+          "scores": {
+            "char_count": 18,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 0.89
+        },
+        {
+          "id": "profile-005",
+          "output": "可以，我使用 Python、Streamlit 和大模型 API 进行过接口接入。",
+          "scores": {
+            "char_count": 41,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.608
+        },
+        {
+          "id": "profile-006",
+          "output": "我有 Prompt 设计和结果状态管理经验，做过大模型 API 调用和结果管理。",
+          "scores": {
+            "char_count": 40,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.924
+        },
+        {
+          "id": "profile-007",
+          "output": "我目前没有 MNN 项目经验，正在学习相关技术。",
+          "scores": {
+            "char_count": 24,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.182
+        },
+        {
+          "id": "profile-008",
+          "output": "可以，我目前没有公开项目链接，正在学习相关技术。",
+          "scores": {
+            "char_count": 24,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.125
+        },
+        {
+          "id": "profile-009",
+          "output": "我使用 Python 和 Streamlit 开发过 AI 求职助手。",
+          "scores": {
+            "char_count": 35,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.157
+        },
+        {
+          "id": "profile-010",
+          "output": "我使用 Python、Streamlit 和大模型 API 实现了 AI 求职助手界面。",
+          "scores": {
+            "char_count": 44,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.579
+        },
+        {
+          "id": "profile-011",
+          "output": "当然，我实现过 PDF、DOCX 简历解析功能。",
+          "scores": {
+            "char_count": 24,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.223
+        },
+        {
+          "id": "profile-012",
+          "output": "目前我正在学习 Qwen3 LoRA 微调，并已实现大模型推理功能。",
+          "scores": {
+            "char_count": 34,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.693
+        },
+        {
+          "id": "profile-013",
+          "output": "我做过结果状态管理，支持大模型推理和 API 调用。",
+          "scores": {
+            "char_count": 26,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.335
+        },
+        {
+          "id": "profile-014",
+          "output": "我目前更偏应用 AI 技术，正在学习大模型和大语言模型应用。",
+          "scores": {
+            "char_count": 30,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": false,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": false
+          },
+          "latency_seconds": 1.506
+        },
+        {
+          "id": "profile-015",
+          "output": "我使用 Python 和 Streamlit 开发过 AI 求职助手。",
+          "scores": {
+            "char_count": 35,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.176
+        },
+        {
+          "id": "profile-016",
+          "output": "目前没有部署到生产环境，我正在测试环境。",
+          "scores": {
+            "char_count": 20,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": false,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": false
+          },
+          "latency_seconds": 0.918
+        }
+      ]
+    },
+    "profile36": {
+      "summary": {
+        "cases": 16,
+        "all_rules_pass_rate": 0.9375,
+        "required_pass_rate": 0.9375,
+        "fact_consistency_rate": 1.0,
+        "mean_latency_seconds": 1.364
+      },
+      "rows": [
+        {
+          "id": "profile-001",
+          "output": "我使用 Python、Streamlit 开发过 AI 求职助手。",
+          "scores": {
+            "char_count": 33,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.241
+        },
+        {
+          "id": "profile-002",
+          "output": "我目前没有 MNN-Chat 项目经验，正在学习相关技术。",
+          "scores": {
+            "char_count": 29,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.189
+        },
+        {
+          "id": "profile-003",
+          "output": "可以，我正在学习 Qwen3 LoRA 微调，并没有 MNN-Chat 项目经验。",
+          "scores": {
+            "char_count": 41,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.627
+        },
+        {
+          "id": "profile-004",
+          "output": "我支持 PDF、DOCX 简历解析。",
+          "scores": {
+            "char_count": 18,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 0.856
+        },
+        {
+          "id": "profile-005",
+          "output": "您好，我有大模型 API 调用经验，正在学习 Qwen3 LoRA 微调。",
+          "scores": {
+            "char_count": 37,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.721
+        },
+        {
+          "id": "profile-006",
+          "output": "我有 Prompt 设计和结果状态管理经验，做过大模型 API 调用和结果处理。",
+          "scores": {
+            "char_count": 40,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.825
+        },
+        {
+          "id": "profile-007",
+          "output": "我目前没有 MNN 项目经验，正在学习相关技术。",
+          "scores": {
+            "char_count": 24,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.019
+        },
+        {
+          "id": "profile-008",
+          "output": "我目前没有公开项目链接，正在学习相关技术。",
+          "scores": {
+            "char_count": 21,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 0.898
+        },
+        {
+          "id": "profile-009",
+          "output": "我使用 Python 和 Streamlit 开发过 AI 求职助手。",
+          "scores": {
+            "char_count": 35,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.244
+        },
+        {
+          "id": "profile-010",
+          "output": "我使用 Python、Streamlit 和大模型 API 实现过 AI 求职助手界面。",
+          "scores": {
+            "char_count": 44,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.559
+        },
+        {
+          "id": "profile-011",
+          "output": "当然，我实现过 DOCX 简历解析功能。",
+          "scores": {
+            "char_count": 20,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.039
+        },
+        {
+          "id": "profile-012",
+          "output": "目前我正在学习 Qwen3 LoRA 微调，并已跑通训练流程。",
+          "scores": {
+            "char_count": 31,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.428
+        },
+        {
+          "id": "profile-013",
+          "output": "我做过结果状态管理，支持大模型推理和 API 调用。",
+          "scores": {
+            "char_count": 26,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.221
+        },
+        {
+          "id": "profile-014",
+          "output": "我目前更偏应用 AI 技术，正在学习 Qwen3 LoRA 微调，并尝试用 MNN-Chat 项目实践。",
+          "scores": {
+            "char_count": 52,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 2.189
+        },
+        {
+          "id": "profile-015",
+          "output": "我有 Python、Streamlit 和大模型 API 调用经验，做过 AI 求职助手项目。",
+          "scores": {
+            "char_count": 47,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": true,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": true
+          },
+          "latency_seconds": 1.821
+        },
+        {
+          "id": "profile-016",
+          "output": "目前没有部署到生产环境，我正在测试中。",
+          "scores": {
+            "char_count": 19,
+            "length_pass": true,
+            "required_all_pass": true,
+            "required_pass": false,
+            "forbidden_pass": true,
+            "no_think_pass": true,
+            "fact_consistency_pass": true,
+            "fact_conflicts": [],
+            "all_rules_pass": false
+          },
+          "latency_seconds": 0.942
+        }
+      ]
+    }
+  }
+}

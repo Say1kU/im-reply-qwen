@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "im-reply-qwen"
+version = "0.1.0"
+description = "Controllable Chinese IM reply generation with Qwen3 LoRA"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = {text = "MIT"}
+dependencies = [
+  "requests>=2.32,<3",
+]
+
+[project.optional-dependencies]
+demo = ["streamlit>=1.36,<2"]
+dev = ["pytest>=8,<9", "ruff>=0.6,<1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
