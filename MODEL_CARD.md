@@ -2,8 +2,10 @@
 
 ## 状态
 
-Adapter 已在本地完成训练和评测，尚未上传 ModelScope 或 Hugging Face。本仓库只提交代码、
-数据生成脚本、固定测试集和真实评测结果，不提交基础模型或本地 checkpoint。
+Adapter 已完成训练和评测，并发布至
+[ModelScope：Say1kU/im-reply-qwen-lora](https://modelscope.cn/models/Say1kU/im-reply-qwen-lora)。
+GitHub 仓库只提交代码、数据生成脚本、固定测试集和真实评测结果，不提交基础模型或本地
+checkpoint。
 
 ## 基座与训练
 
