@@ -4,8 +4,9 @@
 回复风格，并通过固定测试集比较原始模型与微调模型。
 
 > 当前状态：工程骨架、Profile 数据、规则评测和 Streamlit Demo 已完成；本机 3-step smoke
-> training 与 36-step Profile LoRA 训练、Adapter 重载推理均已通过。公开权重和人工盲评尚未
-> 完成。仓库不会用离线模板输出冒充模型结果。
+> training 与 36-step Profile LoRA 训练、Adapter 重载推理均已通过。LoRA Adapter 已发布至
+> [ModelScope](https://modelscope.cn/models/Say1kU/im-reply-qwen-lora)，人工盲评尚未完成。
+> 仓库不会用离线模板输出冒充模型结果。
 
 基于 96 条招聘沟通样例训练的 Profile LoRA 已完成首轮固定评测：16 条独立样例的规则全通过率
 由原始模型的 68.75% 提升到 93.75%。详细设置、逐 checkpoint 结果和限制见
